@@ -1,3 +1,8 @@
+import { header } from "../components/header.js";
+
+header();
+
+
 // Pakeisti pavadinima
 const titleDOM = document.querySelector('title');
 const h1DOM = document.querySelector('h1');
@@ -8,6 +13,7 @@ const newTitle = 'Zuikio daržas';
 let increment = 0;
 
 h1DOM.textContent = newTitle;
+
 // Laikrodis
 const timer = setInterval(() => {
     titleDOM.textContent = increment++ % 2 === 0
@@ -25,8 +31,6 @@ setInterval(() => {
     pDOM.textContent = (pTime++ / 100) + 's';
     // pDOM.style.fontSize = (pTime / 10) + 'rem';
 }, 10);
-
-
 
 
 const vegetables = ['pomidoras', 'agurkas', 'svogunas', 'bulve'];

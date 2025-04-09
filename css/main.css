@@ -38,12 +38,9 @@ display: flex;
 }
 .main-header .link:hover {
    
-    background-color: #f00;
+    background-color: #eee;
 }
 .main-header .link.active {
     background-color: #ccc;
 }
 
-.main-header .main-nav {
-    
-}
