@@ -9,13 +9,13 @@ export function header() {
 
 
     const menu = [
-        { text: 'Home', href: './' },
-        { text: 'Text', href: './text/' },
-        { text: 'Food', href: './food/' },
-        { text: 'Darzas', href: './darzas/' },
-        { text: 'Header', href: './header/' },
-        { text: 'Click', href: './click/'  },
-        { text: 'Like', href: './like/'  },
+        { text: 'Home', href: '/' },
+        { text: 'Text', href: '/text/' },
+        { text: 'Food', href: '/food/' },
+        { text: 'Darzas', href: '/darzas/' },
+        { text: 'Header', href: '/header/' },
+        { text: 'Click', href: '/click/' },
+        { text: 'Like', href: '/like/' },
     ];
 // parodo kuriame psl esi per inspect
 //console.log(location.pathname);
