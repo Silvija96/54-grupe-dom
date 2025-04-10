@@ -7,7 +7,6 @@ export function header() {
     }
     document.head.insertAdjacentHTML('afterbegin', `<base href="${base}">`);
 
-
     const menu = [
         { text: 'Home', href: '/' },
         { text: 'Text', href: '/text/' },
@@ -17,8 +16,6 @@ export function header() {
         { text: 'Click', href: '/click/' },
         { text: 'Like', href: '/like/' },
     ];
-
-
 
     let linksHTML = '';
 
