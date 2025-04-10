@@ -1,6 +1,11 @@
 export function header() {
+    
+    if(location.hostname !== 'localhost') {
+        const base = '<base href="https://github.com/Silvija96/54-grupe-dom">';
+        document.head.insertAdjacentHTML('afterbegin', '<base href="https://github.com/Silvija96/54-grupe-dom">);
+    }
+    
     const menu = [
-
         { text: 'Home', href: '/' },
         { text: 'Text', href: '/text' },
         { text: 'Food', href: '/food' },
