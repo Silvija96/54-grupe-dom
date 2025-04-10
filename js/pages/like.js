@@ -22,6 +22,7 @@ mainAddBtnDOM.addEventListener('click', () => {
 
    plusDOM.addEventListener('click', () => {
     countDOM.textContent = ++count;
+    });
 });
-});
+
 
