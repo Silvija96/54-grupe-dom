@@ -17,10 +17,9 @@ export function header() {
         { text: 'Click', href: '/click/' },
         { text: 'Like', href: '/like/' },
     ];
-// parodo kuriame psl esi per inspect
-//console.log(location.pathname);
 
-// puslapiu perejimas i kita psl
+
+
 let linksHTML = '';
 
 for (const link of menu) {
